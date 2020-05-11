@@ -4,7 +4,7 @@ WORKDIR /
 
 RUN apt-get update ; apt-get install vim git curl unzip ffmpeg wget llvm-6.0 freeglut3 freeglut3-dev -y ; 
 
-RUN pip install --upgrade scikit-image tqdm keras scipy requests plyfile opencv-python-headless ;
+RUN pip install --upgrade pip scikit-image tqdm keras scipy requests plyfile opencv-python-headless ;
 
 RUN wget https://github.com/mmatl/travis_debs/raw/master/xenial/mesa_18.3.3-0.deb ; \
     dpkg -i ./mesa_18.3.3-0.deb || true ; \
@@ -20,4 +20,4 @@ RUN pip install --upgrade pyrender
 
 RUN rm /usr/bin/python; ln -s /usr/bin/python3.5 /usr/bin/python
 
-
+RUN python3.5 -m pip install joblib # install packets for a particular version easily

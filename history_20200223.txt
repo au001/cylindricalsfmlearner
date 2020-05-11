@@ -1,0 +1,120 @@
+    1  bash ./start_docker.sh
+    2  start_docker.sh
+    3  ./start_docker.sh
+    4  pwd
+    5  ls
+    6  realpath 2018-10-03-subset/
+    7  /data/auppulur/cylindricalsfmlearner/2018-10-03-subset
+    8  /data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subse/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cylindricalsfmlearner/2018-10-03-subset/data/auppulur/cyli
+    9  ./gen_depth <path-to-images-directory> -o out --width 2048 --height 512 --checkpoint checkpoint/model.latest <path-to-images-directory>  <path-to-images-directory>  <path-to-images-directory>  <path-to-images-directory> 
+   10  /data/auppulur/cylindricalsfmlearner/2018-10-03-subset
+   11  ./gen_depth /data/auppulur/cylindricalsfmlearner/2018-10-03-subset -o out --width 2048 --height 512 --checkpoint checkpoint/model.latest
+   12  ls
+   13  cd 2018-10-03-subset/
+   14  ls
+   15  realpath 2018-10-03-subset/
+   16  realpath 2018-10-03-subset/
+   17  ./gen_depth /data/auppulur/cylindricalsfmlearner/2018-10-03-subset/2018-10-03-subset -o out --width 2048 --height 512 --checkpoint checkpoint/model.latest
+   18  cd ..
+   19  cd ..
+   20  ./gen_depth /data/auppulur/cylindricalsfmlearner/2018-10-03-subset/2018-10-03-subset -o out --width 2048 --height 512 --checkpoint checkpoint/model.latest
+   21  ls
+   22  cd cylindricalsfmlearner/
+   23  ./gen_depth /data/auppulur/cylindricalsfmlearner/2018-10-03-subset/2018-10-03-subset -o out --width 2048 --height 512 --checkpoint checkpoint/model.latest
+   24  ./gen_depth /2018-10-03-subset -o out --width 2048 --height 512 --checkpoint checkpoint/model.latest
+   25  ./gen_depth 2018-10-03-subset -o out --width 2048 --height 512 --checkpoint checkpoint/model.latest
+   26  pwd
+   27  ./start_docker.sh 0
+   28  ./start_docker.sh 1
+   29  ./start_docker.sh 2
+   30  ./start_docker.sh 3
+   31  exit
+   32  ./render_ply out.ply --width 2048 --IPD 0.01
+   33  nano
+   34  pico
+   35  vim
+   36  export PYOPENGL_PLATFORM=osmesa
+   37  ./render_ply out.ply --width 2048 --IPD 0.01
+   38  exit
+   39  docker images
+   40  docker image | grep cylin
+   41  pwd
+   42  stop docker cylindrical/latest
+   43  docker stop
+   44  q
+   45  exit
+   46  ls
+   47  pwd
+   48  mkdir output
+   49  ls
+   50  ls output
+   51  ls | grep output
+   52  ls /data/jventu09/headcam
+   53  python data/prepare_training_data.py --dataset_dir /data/jventu09 --dataset_name 'headcam' --dump_root output --seq_length 3 --img_height 512 --img_width 2048 --val_frac 0.1
+   54  pwd
+   55  python ./data/prepare_training_data.py --dataset_dir /data/jventu09 --dataset_name 'headcam' --dump_root output --seq_length 3 --img_height 512 --img_width 2048 --val_frac 0.1
+   56  ls ./data/prepare_train_data.py 
+   57  ls data/prepare_train_data.py 
+   58  python data/prepare_training_data.py --dataset_dir /data/jventu09/headcam --dataset_name 'headcam' --dump_root output --seq_length 3 --img_height 512 --img_width 2048 --val_frac 0.1
+   59  python "data/prepare_training_data.py" --dataset_dir /data/jventu09/headcam --dataset_name 'headcam' --dump_root output --seq_length 3 --img_height 512 --img_width 2048 --val_frac 0.1
+   60  mkdir output
+   61  ls
+   62  ls headcam
+   63  ls -l headcam
+   64  python data/prepare_training_data.py --dataset_dir /data/jventu09/headcam --dataset_name 'headcam' --dump_root output --seq_length 3 --img_height 512 --img_width 2048 --val_frac 0.1
+   65  python prepare_training_data.py --dataset_dir /data/jventu09/headcam --dataset_name 'headcam' --dump_root output --seq_length 3 --img_height 512 --img_width 2048 --val_frac 0.1
+   66  ls -l
+   67  cd ..
+   68  python data/prepare_train_data.py --dataset_dir /data/jventu09/headcam --dataset_name 'headcam' --dump_root output --seq_length 3 --img_height 512 --img_width 2048 --val_frac 0.1
+   69  ls /data/jventu09/
+   70  ls /data/jventu09/ | grep prepare
+   71  pwd
+   72  pwd
+   73  cd ..
+   74  pwd
+   75  cd cylindricalsfmlearner/
+   76  pwd
+   77  ls
+   78  ls data/
+   79  ls /data/jventu09/cylindricalsfmlearner/
+   80  python data/prepare_train_data.py --dataset_dir /data/jventu09/headcam --dataset_name 'headcam' --dump_root output --seq_length 3 --img_height 512 --img_width 2048 --val_frac 0.1
+   81  exit
+   82  exit
+   83  ./gen_depth ../output -o out --width 2048 --height 512 --checkpoint checkpoints/model.latest
+   84  exit
+   85  bash start_docker.sh 0
+   86  exit
+   87  ./gen_depth /data/jventu09/headcam/2018-10-03 -o out --width 2048 --height 512 --checkpoint checkpoints/model.latest
+   88  exit
+   89  tmux attach
+   90  exit
+   91  exit
+   92  python data/prepare_training_data.py --dataset_dir <path-to-headcam> --dataset_name 'headcam' --dump_root <output-path> --seq_length 3 --img_height 512 --img_width 2048 --val_frac 0.1
+   93  cd ..
+   94  mkdir prep_out
+   95  cd cylindricalsfmlearner/
+   96  python data/prepare_training_data.py --dataset_dir /data/jventu09/headcam --dataset_name 'headcam' --dump_root ../prep_out/ --seq_length 3 --img_height 512 --img_width 2048 --val_frac 0.1
+   97  python data/prepare_train_data.py --dataset_dir /data/jventu09/headcam --dataset_name 'headcam' --dump_root ../prep_out/ --seq_length 3 --img_height 512 --img_width 2048 --val_frac 0.1
+   98  exi
+   99  exit
+  100  python train.py --dataset_dir ../prep_out/ --img_height 512 --img_width 2048
+  101  resume
+  102  python train.py --dataset_dir ../prep_out/ --img_height 512 --img_width 2048
+  103  python train.py --dataset_dir ../prep_out/ --img_height 512 --img_width 2048
+  104  ./gen_depth /data/jventu09/headcam/2018-10-03 -o out --width 2048 --height 512 --checkpoint checkpoints/model.latest
+  105  ./gen_depth test_set/2018-10-03-subset -o out --width 2048 --height 512 --checkpoint checkpoints/model.latest
+  106  ./gen_depth test_set/2018-10-03-subset/ -o out --width 2048 --height 512 --checkpoint checkpoints/model.latest
+  107  pwd
+  108  ls 
+  109  ls test_set/
+  110  cp -r test_set ../
+  111  ls ../
+  112  ls ../test_set/
+  113  ls test_set/
+  114  rm -r test_set/
+  115  ls test_set
+  116  ./gen_depth ../test_set/2018-10-03-subset/ -o out --width 2048 --height 512 --checkpoint checkpoints/model.latest
+  117  ./gen_depth ../test_set/2018-10-03-subset/ -o out --width 2048 --height 512 --checkpoint ../test_set/checkpoint/model.latest
+  118  ./gen_depth ../test_set/2018-10-03-subset/ -o out --width 2048 --height 512 --checkpoint checkpoint/model.latest
+  119  ./gen_depth ../test_set/2018-10-03-subset/ -o out --width 2048 --height 512 --checkpoint checkpoints/model.latest
+  120  history > history_20200223.txt
